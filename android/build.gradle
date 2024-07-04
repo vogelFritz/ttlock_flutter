@@ -30,10 +30,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 31
 
     defaultConfig {
-        minSdkVersion 23
+        minSdkVersion 18
     }
     lintOptions {
         disable 'InvalidPackage'
@@ -45,7 +45,7 @@ android {
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.ttlock:ttlock:3.3.4'
+    //implementation 'com.ttlock:ttlock:3.3.4'
     implementation 'com.google.code.gson:gson:2.6.2'
-    //implementation(name: 'ttlock-release', ext: 'aar')
+    implementation(name: 'ttlock-release', ext: 'aar')
 }
