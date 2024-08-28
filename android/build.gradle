@@ -28,9 +28,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace 'com.ttlock.ttlock_flutter'
-    }
+    namespace 'com.ttlock.ttlock_flutter'
 
     compileSdkVersion 31
 
