@@ -20,7 +20,6 @@ rootProject.allprojects {
     repositories {
         mavenCentral()
         google()
-        jcenter()
         flatDir {
             dirs project(':ttlock_flutter').file('libs')
         }
