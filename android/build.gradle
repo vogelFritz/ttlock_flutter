@@ -1,3 +1,5 @@
+package android
+
 group 'com.ttlock.ttlock_flutter'
 version '1.0'
 
@@ -20,7 +22,7 @@ rootProject.allprojects {
         mavenCentral()
         google()
         flatDir {
-            dirs project(':ttlock_flutter').file('libs')
+            dirs "$rootDir/libs"
         }
     }
 }
