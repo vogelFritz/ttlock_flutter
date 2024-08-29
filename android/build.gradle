@@ -1,5 +1,3 @@
-package android
-
 group 'com.ttlock.ttlock_flutter'
 version '1.0'
 
